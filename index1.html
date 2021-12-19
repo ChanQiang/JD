@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>京东商城-注册</title>
+	<!-- 引入头部和底部的公共样式 -->
+	<link rel="stylesheet" href="./css/base.css">
+	<style type="text/css">
+		input{
+			width: 450px;
+			height: 40px;
+			margin-top: 30px;
+		}
+		label
+		{
+			cursor: pointer;
+			display: inline-block;
+			padding: 3px 6px;
+			text-align: right;
+			width: 150px;
+			font-size: 18px;
+		}
+		#father
+		{
+			width: 100%;
+			background-color: #e9e3e3;
+			box-shadow:5px 5px 5px #AAAAAA;
+		}
+		#txt1 
+		{
+			margin-left: -100px;
+		}
+		#father>span
+		{
+			position: absolute;
+			top: 50px;
+			left: 200px;
+			font-size: 25px;
+		}
+		.login
+		{
+			position: absolute;
+			top: 50px;
+			right: 10px;
+		}
+		form
+		{
+			position: absolute;
+			margin-left: 250px;
+			top: 120px;
+		}
+		#box3
+		{
+			position: relative;
+			top: 400px;
+			text-align: center;
+		}
+		#btn
+		{
+			position: relative;
+			left: 120px;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+    <!-- 头部 -->
+    <div id="father">
+			<div class="logo"></div>
+            <span>欢迎注册</span>
+            <div class="login">已有账号？<a href="index2.html" style="color: red;"> 请登录</a> </div>
+   </div>
+    <!-- 表单 -->
+	
+		<form action="index.html">
+		    <div>
+		        <label>用 户 名</label>
+		        <input type="text" maxlength="20" placeholder="您的账户名和登录名">
+		    </div>
+		    <!-- 密码 -->
+		    <div>
+		        <label>设置密码</label>
+		        <input type="password" maxlength="20" placeholder="建议至少使用两种字符组合">
+		    </div>
+		    <!-- re密码 -->
+		    <div>
+		        <label>确认密码</label>
+		        <input type="password" placeholder="请再次输入密码">
+		    </div>
+		    <div>
+		       <input type="checkbox" name="checkbox" value="checkbox" style="zoom:50%;">
+			   <span id="txt1">我已阅读并同意 <a href="#">《京东用户注册协议》</a></span>
+		    </div>
+		    <!-- 表单的提交按钮 -->
+		     <input type="submit"  value="立即注册" id="btn">
+		</form>
+	
+    <!-- 页面底部 -->
+    <div id="box3">
+        <p>
+            <a href="">关于我们</a><span></span>
+            <a href="">联系我们</a><span></span>
+            <a href="">人才招聘</a><span></span>
+            <a href="">商家入驻</a><span></span>
+            <a href="">广告服务</a><span></span>
+            <a href="">手机京东</a><span></span>
+            <a href="">友情链接</a><span></span>
+            <a href="">销售联盟</a><span></span>
+            <a href="">京东社区</a><span></span>
+            <a href="">English Site</a><span></span>
+            <a href="">关于我们</a><span></span>
+            <a href="">关于我们</a>
+        </p>
+        <p>Copyright©2004-2016  京东JD.com 版权所有 </p>
+    </div>
+</body>
+</html>
